@@ -1,0 +1,86 @@
+<config>
+<param name="result-filename" type="string">before_release_rangnet.xml</param>
+<param name="result-directory" type="string">evaluation/result/</param>
+<param name="run-on-testset" type="boolean">false</param>
+<param name="skip train" type="boolean">false</param>
+ <!--  data resolution: depending on sensor  -->
+<param name="data_width" type="integer">900</param>
+<param name="data_height" type="integer">64</param>
+<param name="data_fov_up" type="float">3.0</param>
+<param name="data_fov_down" type="float">-25.0</param>
+<param name="max_depth" type="float">75.0</param>
+<param name="min_depth" type="float">2.0</param>
+<param name="min_yaw" type="float">0.0</param>
+<param name="max_yaw" type="float">0.0</param>
+ <!--  icp properties.  -->
+<param name="max iterations" type="integer">33</param>
+<param name="stopping threshold" type="float">0.0001</param>
+<param name="delta" type="float">0.0001</param>
+<param name="icp-max-distance" type="float">2.0</param>
+<param name="icp-max-angle" type="float">30.0</param>
+<param name="weighting" type="string">huber</param>
+ <!--  none, huber, turkey.  -->
+<param name="factor" type="float">0.5</param>
+ <!--  k, should this be max distance?!  -->
+<param name="initialize_identity" type="boolean">false</param>
+<param name="bilinear_sampling" type="boolean">true</param>
+<param name="cutoff_threshold" type="float">10.0</param>
+<param name="use_initialize_distance" type="boolean">true</param>
+ <!--  rendered model image properties.  -->
+<param name="model_width" type="integer">900</param>
+<param name="model_height" type="integer">64</param>
+<param name="model_fov_up" type="float">3.0</param>
+<param name="model_fov_down" type="float">-25.0</param>
+<param name="model_max_depth" type="float">75.0</param>
+<param name="model_min_depth" type="float">2.0</param>
+ <!--  compositing of current & past model images.  -->
+<param name="compose_rendering" type="boolean">true</param>
+<param name="max_loop_closure_distance" type="float">8.0</param>
+ <!--
+ Relocalization after track loss? (frame-2-frame tracking) 
+-->
+<param name="fallback_mode" type="boolean">true</param>
+<param name="fallback-max-distance" type="float">0.5</param>
+<param name="fallback-max-angle" type="float">30.0</param>
+<param name="iterative_cutoff" type="boolean">false</param>
+ <!--
+ laser mapping or odometry approach, i.e., frame-to-frame, frame-to-model, ... 
+-->
+<param name="approach" type="string">frame-to-model</param>
+<param name="min_radius" type="float">0.03</param>
+<param name="max_radius" type="float">1.00</param>
+<param name="max_angle" type="float">90.0</param>
+<param name="map-max-distance" type="float">0.2</param>
+<param name="map-max-angle" type="float">45.0</param>
+<param name="unstable_age" type="integer">3</param>
+<param name="confidence_mode" type="integer">3</param>
+ <!--  0 no, 1 angle, 2 distance, 3 both  -->
+<param name="confidence_threshold" type="float">0.0</param>
+<param name="p_stable" type="float">0.6</param>
+<param name="p_prior" type="float">0.5</param>
+<param name="sigma_angle" type="float">1.0</param>
+<param name="sigma_distance" type="float">1.0</param>
+<param name="use_stability" type="boolean">true</param>
+ <!--  submapping parameters.  -->
+<param name="submap-dimension" type="integer">4</param>
+<param name="submap-extent" type="float">10.0</param>
+<param name="partial-extraction" type="boolean">true</param>
+<param name="history size" type="integer">500</param>
+<param name="history stride" type="integer">1</param>
+ <!--  loop closure parameters.  -->
+<param name="close-loops" type="boolean">true</param>
+<param name="loop-residual-threshold" type="float">1.15</param>
+<param name="loop-valid-threshold" type="float">0.95</param>
+<param name="loop-outlier-threshold" type="float">1.1</param>
+<param name="loop-search-distance" type="float">50</param>
+<param name="loop-min-verifications" type="integer">5</param>
+ <!--  adding missing parameters according to visualizer.  -->
+<param name="averaging_scheme" type="integer">0</param>
+<param name="bilateral_sigma_range" type="float">2.5</param>
+<!--param name="filter_vertexmap" type="boolean">false</param-->
+<param name="update_always" type="boolean">false</param>
+<param name="use_filtered_vertexmap" type="boolean">false</param>
+<param name="weighting_scheme" type="integer">0</param>
+<!-- rangenet -->
+<param name="model_path" type="string">/path/to/rangenet/model</param>
+</config>

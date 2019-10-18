@@ -1,0 +1,21 @@
+<package>
+  <name>semantic_suma</name>
+  <version>0.0.1</version>
+  <description>SuMa++: Efficient LiDAR-based Semantic SLAM</description>
+  <maintainer email="xieyuanli.chen@igg.uni-bonn.de">Xieyuanli Chen</maintainer>
+  <license>MIT</license>
+
+  <author email="jens.behley@igg.uni-bonn.de">Jens Behley</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>glow</build_depend>
+  <build_depend>rangenet_lib</build_depend>
+  
+  <run_depend>glow</run_depend>  
+  <run_depend>rangenet_lib</run_depend>
+  <export>
+    <git_url target="glow" url="https://github.com/jbehley/glow.git"/>
+  </export>
+
+</package>

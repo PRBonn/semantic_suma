@@ -1,0 +1,21 @@
+newmtl material0
+Ka 0.2 0.2 0.2
+Kd 0 0 0
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 8
+d 0.85
+newmtl material1
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 8
+d 1
+newmtl material2
+Ka 0 0 0
+Kd 0.752941 0.752941 0.752941
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 8
+d 1

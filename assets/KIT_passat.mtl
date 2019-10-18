@@ -1,0 +1,165 @@
+# inside rear stuff; non visible.
+newmtl material0
+Ka 0.01 0.01 0.01
+Kd 1 1 1
+Ks 1 1 1
+Ke 0 0 0
+Ns 128
+d 1
+# roof profiles.
+newmtl material1
+Ka 0.01 0.01 0.01
+Kd 0.752941 0.752941 0.752941
+Ks 0.376471 0.376471 0.376471
+Ke 0 0 0
+Ns 8
+d 1
+# velodyne box
+newmtl material2
+Ka 0 0 0
+Kd 0.607843 0.607843 0.607843
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 8
+d 1
+# nozzle on the roof
+newmtl material3
+Ka 0 0 0
+Kd 0 0.0 1.0
+Ks 0.290196 0.290196 1
+Ke 0 0 0
+Ns 8
+d 1
+# brake light
+newmtl material4
+Ka 0 0 0
+Kd 0.709804 0 0
+Ks 1 0 0
+Ke 0.0 0.0 0
+Ns 128
+d 1
+# ???
+newmtl material5
+Ka 0 0 0
+Kd 0.6 0.6 0.6
+Ks 1 0 0
+Ke 0 0 0
+Ns 128
+d 0.4
+# side and back glass tint
+newmtl material6
+Ka 0 0 0
+Kd 0.003922 0.078431 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 90.5097
+d 0.1
+# brake lights glass
+newmtl material7
+Ka 0 0 0
+Kd 1 0.470588 0
+Ks 1 0.470588 0
+Ke 0 0 0
+Ns 128
+d 0.4
+# hood at the back // changed to black
+newmtl material8
+Ka 0.05 0.05 0.05
+Kd 0.1 0.1 0.1
+# Ks 0.290196 0.290196 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+#Ns 64
+Ns 32
+d 1
+# blackish window tint
+newmtl material9
+Ka 0.2 0.2 0.2
+Kd 0 0 0
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 4
+d 1
+# inside cover material
+newmtl material10
+Ka 0 0 0
+Kd 0.498039 0.498039 0.498039
+Ks 0.5 0.5 0.5
+Ke 0 0 0
+Ns 32
+d 1
+# rear windshield wiper 
+newmtl material11
+Ka 0 0 0
+#Kd 0.74902 0.74902 0.74902
+Kd 0.04902 0.04902 0.04902
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 2
+d 1
+# cockpit
+newmtl material12
+Ka 0 0 0
+Kd 0.498039 0.498039 0.498039
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 2
+d 1
+# CAR PAINT
+newmtl material13
+Ka 0 0 0
+Kd 0 0 1
+Ks 0.423529 0.423529 1
+Ke 0 0 0
+# Ns 8
+Ns 128
+d 1
+# front window tint
+newmtl material14
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ke 0 0 0
+Ns 90.5097
+d 0.25
+# inside material of seats
+newmtl material15
+Ka 0 0 0
+Kd 0.139516 0.139516 0.139516
+Ks 0.033146 0.033146 0.033146
+Ke 0 0 0
+Ns 8
+d 1
+# turn signals front
+newmtl material16
+Ka 0 0 0
+Kd 1 0.470588 0
+Ks 1 0.470588 0
+Ke 0.1 0.02 0
+Ns 128
+d 1
+# plastic on car
+newmtl material17
+Ka 0 0 0
+Kd 0.164491 0.164491 0.164491
+Kd 0.05 0.05 0.05
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 2
+d 1
+# grill, VW logo, material, etc.
+newmtl material18
+Ka 0 0 0
+Kd 0.5 0.5 0.5
+Ks 1 1 1
+Ke 0 0 0
+Ns 128
+d 1
+# licence plate
+newmtl material19
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 128
+d 1
