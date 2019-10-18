@@ -7,7 +7,7 @@ Developed by [Xieyuanli Chen](http://www.ipb.uni-bonn.de/people/xieyuanli-chen/)
 SuMa++ is built upon SuMa and RangeNet++. For more details, we refer to the original project websites [SuMa](https://github.com/jbehley/SuMa) and [RangeNet++](https://github.com/PRBonn/lidar-bonnetal).
 
 _An example of using SuMa++:_
-![ptcl](http://www.ipb.uni-bonn.de/html/projects/semantic_suma/demo.gif)
+![ptcl](./.readme/demo.gif)
 
 ## Publication
 
