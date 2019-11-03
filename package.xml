@@ -16,6 +16,7 @@
   <run_depend>rangenet_lib</run_depend>
   <export>
     <git_url target="glow" url="https://github.com/jbehley/glow.git"/>
+    <git_url target="rangenet_lib" url="https://github.com/PRBonn/rangenet_lib.git"/>
   </export>
 
 </package>
