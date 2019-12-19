@@ -27,7 +27,7 @@ If you use our implementation in your academic work, please cite the correspondi
 
 * catkin
 * Qt5 >= 5.2.1
-* OpenGL >= 3.3
+* OpenGL >= 4.0
 * libEigen >= 3.2
 * gtsam >= 4.0
 
