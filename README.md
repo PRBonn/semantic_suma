@@ -2,7 +2,7 @@
 
 This repository contains the implementation of SuMa++, which generates semantic maps only using three-dimensional laser range scans.
 
-Developed by [Xieyuanli Chen](http://www.ipb.uni-bonn.de/people/xieyuanli-chen/) and [Jens Behley](http://jbehley.github.io/projects/surfel_mapping/).
+Developed by [Xieyuanli Chen](http://www.ipb.uni-bonn.de/people/xieyuanli-chen/) and [Jens Behley](https://www.ipb.uni-bonn.de/people/jens-behley/).
 
 SuMa++ is built upon SuMa and RangeNet++. For more details, we refer to the original project websites [SuMa](https://github.com/jbehley/SuMa) and [RangeNet++](https://github.com/PRBonn/lidar-bonnetal).
 
