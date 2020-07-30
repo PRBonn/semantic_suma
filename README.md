@@ -29,7 +29,7 @@ If you use our implementation in your academic work, please cite the correspondi
 * Qt5 >= 5.2.1
 * OpenGL >= 4.0
 * libEigen >= 3.2
-* gtsam >= 4.0
+* gtsam >= 4.0  (tested with [4.0.0-alpha2](https://github.com/borglab/gtsam/tree/4.0.0-alpha2))
 
 In Ubuntu 16.04: Installing all dependencies should be accomplished by
 ```bash
