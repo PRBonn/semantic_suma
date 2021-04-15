@@ -98,7 +98,8 @@ OpenGL shading language version string: 4.50 NVIDIA
 - Before running SuMa++, you need to first build the [rangenet_lib](https://github.com/PRBonn/rangenet_lib) and download the pretrained [model](http://www.ipb.uni-bonn.de/html/projects/semantic_suma/darknet53.tar.gz).
 - You need to specify the model path in the configuration file in the `config/` folder.
 - For the first time using, rangenet_lib will take several minutes to build a `.trt` model for SuMa++.
-- SuMa++ now can only work with KITTI dataset.
+- SuMa++ now can only work with KITTI dataset, since the semantic segmentation may not generalize well in other environments.
+- To use SuMa++ with your own dataset, you may finetune or retrain the semantic segmentation network.
 
 All binaries are copied to the `bin` directory of the source folder of the project. Thus,
 1. run `visualizer` in the `bin` directory by `./visualizer`,
