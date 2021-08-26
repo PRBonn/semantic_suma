@@ -2,7 +2,7 @@
 
 This repository contains the implementation of SuMa++, which generates semantic maps only using three-dimensional laser range scans.
 
-Developed by [Xieyuanli Chen](http://www.ipb.uni-bonn.de/people/xieyuanli-chen/) and [Jens Behley](https://www.ipb.uni-bonn.de/people/jens-behley/).
+Developed by [Xieyuanli Chen](https://www.ipb.uni-bonn.de/people/xieyuanli-chen/) and [Jens Behley](https://www.ipb.uni-bonn.de/people/jens-behley/).
 
 SuMa++ is built upon SuMa and RangeNet++. For more details, we refer to the original project websites [SuMa](https://github.com/jbehley/SuMa) and [RangeNet++](https://github.com/PRBonn/lidar-bonnetal).
 
@@ -21,7 +21,7 @@ _An example of using SuMa++:_
 
 ## Publication
 
-If you use our implementation in your academic work, please cite the corresponding [paper](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf):  
+If you use our implementation in your academic work, please cite the corresponding [paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf):  
     
 	@inproceedings{chen2019iros, 
 			author = {X. Chen and A. Milioto and E. Palazzolo and P. Giguère and J. Behley and C. Stachniss},
@@ -95,7 +95,7 @@ OpenGL shading language version string: 4.50 NVIDIA
 
 ## How to run
 **Important Notice**
-- Before running SuMa++, you need to first build the [rangenet_lib](https://github.com/PRBonn/rangenet_lib) and download the pretrained [model](http://www.ipb.uni-bonn.de/html/projects/semantic_suma/darknet53.tar.gz).
+- Before running SuMa++, you need to first build the [rangenet_lib](https://github.com/PRBonn/rangenet_lib) and download the pretrained [model](https://www.ipb.uni-bonn.de/html/projects/semantic_suma/darknet53.tar.gz).
 - You need to specify the model path in the configuration file in the `config/` folder.
 - For the first time using, rangenet_lib will take several minutes to build a `.trt` model for SuMa++.
 - SuMa++ now can only work with KITTI dataset, since the semantic segmentation may not generalize well in other environments.
