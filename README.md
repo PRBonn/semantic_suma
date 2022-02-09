@@ -17,7 +17,8 @@ _An example of using SuMa++:_
 3. [Build](#Build)
 4. [How to run](#How-to-run)
 5. [More Related Work](#More-Related-Work)
-6. [License](#License)
+6. [Frequently Asked Questions](#Frequently-Asked-Questions)
+7. [License](#License)
 
 ## Publication
 
@@ -118,6 +119,10 @@ This repo contains the code for our IROS2020 paper: Learning an Overlap-based Ob
 
 It uses the OverlapNet to train an observation model for Monte Carlo Localization and achieves global localization with 3D LiDAR scans.
 
+
+## Frequently Asked Questions
+- [visualizer segmentation fault](https://github.com/PRBonn/semantic_suma/issues/5)
+- [Different semantic results of suma++](https://github.com/PRBonn/semantic_suma/issues/6)
 
 ## License
 
