@@ -28,9 +28,9 @@ If you use our implementation in your academic work, please cite the correspondi
 			author = {X. Chen and A. Milioto and E. Palazzolo and P. Giguère and J. Behley and C. Stachniss},
 			title  = {{SuMa++: Efficient LiDAR-based Semantic SLAM}},
 			booktitle = {Proceedings of the IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS)},
+  			pages = {4530--4537},
 			year = {2019},
-			codeurl = {https://github.com/PRBonn/semantic_suma/},
-			videourl = {https://youtu.be/uo3ZuLuFAzk},
+			url = {https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf}
 	}
 
 
