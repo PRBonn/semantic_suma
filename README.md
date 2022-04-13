@@ -123,6 +123,7 @@ It uses the OverlapNet to train an observation model for Monte Carlo Localizatio
 ## Frequently Asked Questions
 - [visualizer segmentation fault](https://github.com/PRBonn/semantic_suma/issues/5)
 - [Different semantic results of suma++](https://github.com/PRBonn/semantic_suma/issues/6)
+- [How do I save the global map?](https://github.com/PRBonn/semantic_suma/issues/54)
 
 ## License
 
