@@ -13,12 +13,13 @@ _An example of using SuMa++:_
 ### Table of Contents
 0. [Introduction](#SuMa++:-Efficient-LiDAR-based-Semantic-SLAM)
 1. [Publication](#Publication)
-2. [Dependencies](#Dependencies)
-3. [Build](#Build)
-4. [How to run](#How-to-run)
-5. [More Related Work](#More-Related-Work)
-6. [Frequently Asked Questions](#Frequently-Asked-Questions)
-7. [License](#License)
+2. [Docker](#Docker)
+3. [Dependencies](#Dependencies)
+4. [Build](#Build)
+5. [How to run](#How-to-run)
+6. [More Related Work](#More-Related-Work)
+7. [Frequently Asked Questions](#Frequently-Asked-Questions)
+8. [License](#License)
 
 ## Publication
 
@@ -32,7 +33,24 @@ If you use our implementation in your academic work, please cite the correspondi
 			year = {2019},
 			url = {https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf}
 	}
+ 
+## Docker
 
+Thanks to the efforts of [Hyunggi Chang](https://github.com/changh95), we have now a dockerized version of `semantic_suma`, which takes care of the proper setup.
+
+You can build the Docker image with the provided Dockerfile, i.e.,
+```bash
+docker build -t semantic_suma:latest
+```
+
+and run the container by 
+```bash
+docker run -it -e "DISPLAY=$DISPLAY" -e "QT_X11_NO_MITSHM=1" -e "XAUTHORITY=$XAUTH" -v "/tmp/.X11-unix:/tmp/.X11-unix:rw" -v /kitti:/data --runtime=nvidia --net=host --ipc=host --privileged semantic_suma:latest
+```
+
+Note that it makes a volume located at `kitti` that should point to the KITTI files or another directory containing scans in the KITTI format. Follow the [How to run](#How-to-run) instructions below to execute the binary.
+
+The GUI is visualized via X11, so prior to starting a docker container, `xhost +local:docker` command should be used to provide access to the xhost from docker.
 
 ## Dependencies
 
